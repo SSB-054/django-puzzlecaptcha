@@ -1,0 +1,7 @@
+
+{% spaceless %}
+<div class="puzzlecaptcha">
+    <div class="puzzlecaptcha-container" style="display: flex;align-content: center;gap: 4px;justify-content: center;">{% for widget in widget.subwidgets %}{% include widget.template_name %}{% endfor %}</div>
+    <div class="puzzlecaptcha-helptext" style="font-size: small;">Solve the math problem and enter the result.</div>
+</div>
+{% endspaceless %}

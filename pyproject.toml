@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-puzzlecaptcha"
+version = "0.1.0"
+description = "PuzzleCaptcha: Simplified Math CAPTCHA Using Pillow Image Library"
+authors = ["Suraj Singh Bisht <surajsinghbisht054@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pillow = ">=10"
+django = ">=4.2"
+numpy = ">=2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
