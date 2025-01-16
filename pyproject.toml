@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-puzzlecaptcha"
-version = "0.1.0"
+version = "0.1.1"
 description = "PuzzleCaptcha: Simplified Math CAPTCHA Using Pillow Image Library"
 authors = ["Suraj Singh Bisht <surajsinghbisht054@gmail.com>"]
 license = "MIT"
@@ -9,8 +9,6 @@ packages = [
     {include = "puzzlecaptcha"},
 ]
 keywords = [ "django", "recaptcha", "captcha", "pillow", "django-captcha"]
-
-[project.urls]
 homepage = "https://github.com/SSB-054/django-puzzlecaptcha"
 repository = "https://github.com/SSB-054/django-puzzlecaptcha"
 documentation = "https://github.com/SSB-054/django-puzzlecaptchadocs/"
@@ -18,7 +16,6 @@ documentation = "https://github.com/SSB-054/django-puzzlecaptchadocs/"
 
 
 [tool.poetry.dependencies]
-python = ">=3.9"
 pillow = ">=10"
 django = ">=4.2"
 numpy = ">=2"

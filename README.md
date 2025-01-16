@@ -1,7 +1,7 @@
 # django-puzzlecaptcha
 PuzzleCaptcha: Simplified Math CAPTCHA Using Pillow Image Library
 
-![Preview](./img/preview.png?raw=true)
+![Preview](https://raw.githubusercontent.com/SSB-054/django-puzzlecaptcha/main/img/preview.png)
 
 
 
@@ -82,4 +82,4 @@ MIT License
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/surajsinghbisht054/django-puzzlecaptcha/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/SSB-054/django-puzzlecaptcha/issues) on GitHub.
