@@ -8,6 +8,13 @@ readme = "README.md"
 packages = [
     {include = "puzzlecaptcha"},
 ]
+keywords = [ "django", "recaptcha", "captcha", "pillow", "django-captcha"]
+
+[project.urls]
+homepage = "https://github.com/SSB-054/django-puzzlecaptcha"
+repository = "https://github.com/SSB-054/django-puzzlecaptcha"
+documentation = "https://github.com/SSB-054/django-puzzlecaptchadocs/"
+"Bug Tracker" = "https://github.com/SSB-054/django-puzzlecaptcha/issues"
 
 
 [tool.poetry.dependencies]
